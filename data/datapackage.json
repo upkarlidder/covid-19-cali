@@ -1,0 +1,354 @@
+{
+  "accrual_periodicity": "daily",
+  "additional_limitations": "",
+  "citation": "",
+  "contact_email": "opendata@cdph.ca.gov",
+  "data_collection_tool": "This data is entered by hospitals into an online web interface at the end of each day.",
+  "data_license": "Terms of Use",
+  "de_identification_method": "Data aggregated at county level.",
+  "description": " Attention: We are endeavoring to make this data as useful to you as possible. We have changed the data format so that daily updates are appended to a single file in order to make it easier to analyze in statistical programs. Daily numbers can be easily calculated by subtracting the previous day's total from the current. Cumulative totals previous to 4/1 are not available.\r\n\r\nStatewide cumulative daily inventory of hospital status aggregated to the county level. This dataset depicts: total confirmed cases, total deaths, both positive and suspected positive COVID-19 patients, as well as Intensive Care Unit (ISU) positive and suspected positive COVID-19 patients.",
+  "geo_coverage": "Statewide",
+  "geographic_granularity": "county",
+  "keywords": [
+    "19",
+    "corona",
+    "coronavirus",
+    "covid",
+    "covid-19",
+    "covid19",
+    "virus"
+  ],
+  "limitations": "Limitations",
+  "name": "california-covid-19-hospital-data-and-case-statistics",
+  "program_web_page": "https://covid19.ca.gov/",
+  "related_resources": "",
+  "resources": [
+    {
+      "description": "Statewide daily inventory of hospital status aggregated to the county level. This dataset depicts: total confirmed cases, total deaths, both positive and suspected positive COVID-19 patients, as well as Intensive Care Unit (ICU) positive and suspected positive COVID-19 patients.",
+      "format": "CSV",
+      "name": "covid-19-cases",
+      "path": "covid-19-cases.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "County Name",
+            "type": "string"
+          },
+          {
+            "name": "Most Recent Date",
+            "type": "datetime"
+          },
+          {
+            "name": "Total Count Confirmed",
+            "type": "number"
+          },
+          {
+            "name": "Total Count Deaths",
+            "type": "number"
+          },
+          {
+            "name": "COVID-19 Positive Patients",
+            "type": "number"
+          },
+          {
+            "name": "Suspected COVID-19 Positive Patients",
+            "type": "number"
+          },
+          {
+            "name": "ICU COVID-19 Positive Patients",
+            "type": "number"
+          },
+          {
+            "name": "ICU COVID-19 Suspected Patients",
+            "type": "number"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/6882c390-b2d7-4b9a-aefa-2068cee63e47/resource/6cd8d424-dfaa-4bdd-9410-a3d656e1176e/download/covid-19-data.csv",
+          "title": "COVID 19 Cases"
+        }
+      ],
+      "title": "COVID 19 Cases"
+    },
+    {
+      "description": " ",
+      "format": "chart",
+      "name": "hospital-data-covid-19",
+      "path": "hospital-data-covid-19.chart",
+      "sources": [
+        {
+          "path": "https://public.tableau.com/views/COVID-19PublicDashboard/Covid-19Hospitals?:embed=y&:display_count=no&:showVizHome=no",
+          "title": "Hospital Data - COVID-19"
+        }
+      ],
+      "title": "Hospital Data - COVID-19"
+    },
+    {
+      "description": " ",
+      "format": "chart",
+      "name": "case-statistics-covid-19",
+      "path": "case-statistics-covid-19.chart",
+      "sources": [
+        {
+          "path": "https://public.tableau.com/views/COVID-19PublicDashboard/Covid-19Public?:embed=y&:display_count=no&:showVizHome=no",
+          "title": "Case Statistics - COVID-19"
+        }
+      ],
+      "title": "Case Statistics - COVID-19"
+    },
+    {
+      "format": "CSV",
+      "name": "covid-19-cases-county-level-4-5",
+      "path": "covid-19-cases-county-level-4-5.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "County Name",
+            "type": "string"
+          },
+          {
+            "name": "Most Recent Date",
+            "type": "string"
+          },
+          {
+            "name": "Total Count Confirmed",
+            "type": "string"
+          },
+          {
+            "name": "Total Count Deaths",
+            "type": "string"
+          },
+          {
+            "name": "COVID-19 Positive Patients",
+            "type": "string"
+          },
+          {
+            "name": "Suspected COVID-19 Positive Patients",
+            "type": "string"
+          },
+          {
+            "name": "ICU COVID-19 Positive Patients",
+            "type": "string"
+          },
+          {
+            "name": "ICU COVID-19 Suspected Patients",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/6882c390-b2d7-4b9a-aefa-2068cee63e47/resource/949f10a6-3be1-441b-8c9e-b90901dd3378/download/data_export_tableau_20200405.csv",
+          "title": "COVID-19 Cases - County Level (4/5)"
+        }
+      ],
+      "title": "COVID-19 Cases - County Level (4/5)"
+    },
+    {
+      "description": "Statewide daily inventory of hospital status aggregated to the county level. This dataset depicts: total confirmed cases, total deaths, both positive and suspected positive COVID-19 patients, as well as Intensive Care Unit (ISU) positive and suspected positive COVID-19 patients.",
+      "format": "CSV",
+      "name": "covid-19-cases-county-level-4-4",
+      "path": "covid-19-cases-county-level-4-4.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "County Name",
+            "type": "string"
+          },
+          {
+            "name": "Most Recent Date",
+            "type": "string"
+          },
+          {
+            "name": "Total Count Confirmed",
+            "type": "string"
+          },
+          {
+            "name": "Total Count Deaths",
+            "type": "string"
+          },
+          {
+            "name": "COVID-19 Positive Patients",
+            "type": "string"
+          },
+          {
+            "name": "Suspected COVID-19 Positive Patients",
+            "type": "string"
+          },
+          {
+            "name": "ICU COVID-19 Positive Patients",
+            "type": "string"
+          },
+          {
+            "name": "ICU COVID-19 Suspected Patients",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/6882c390-b2d7-4b9a-aefa-2068cee63e47/resource/f7897ba6-a448-4719-b896-3aa0a2d81b69/download/data_export_tableau_20200404.csv",
+          "title": "COVID-19 Cases - County Level (4/4)"
+        }
+      ],
+      "title": "COVID-19 Cases - County Level (4/4)"
+    },
+    {
+      "description": "Statewide daily inventory of hospital status aggregated to the county level. This dataset depicts: total confirmed cases, total deaths,  both positive and suspected positive COVID-19 patients, as well as Intensive Care Unit (ISU) positive and suspected positive COVID-19 patients.",
+      "format": "CSV",
+      "name": "covid-19-cases-county-level-4-3",
+      "path": "covid-19-cases-county-level-4-3.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "County Name",
+            "type": "string"
+          },
+          {
+            "name": "Most Recent Date",
+            "type": "string"
+          },
+          {
+            "name": "Total Count Confirmed",
+            "type": "string"
+          },
+          {
+            "name": "Total Count Deaths",
+            "type": "string"
+          },
+          {
+            "name": "COVID-19 Positive Patients",
+            "type": "string"
+          },
+          {
+            "name": "Suspected COVID-19 Positive Patients",
+            "type": "string"
+          },
+          {
+            "name": "ICU COVID-19 Positive Patients",
+            "type": "string"
+          },
+          {
+            "name": "ICU COVID-19 Suspected Patients",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/6882c390-b2d7-4b9a-aefa-2068cee63e47/resource/0c42d73e-4c45-4c11-9b3b-ff90f73991c2/download/data_export_tableau_20200403.csv",
+          "title": "COVID-19 Cases - County Level (4/3)"
+        }
+      ],
+      "title": "COVID-19 Cases - County Level (4/3)"
+    },
+    {
+      "description": "Statewide daily inventory of hospital status aggregated to the county level. This dataset depicts: total confirmed cases, total deaths,  both positive and suspected positive COVID-19 patients, as well as Intensive Care Unit (ISU) positive and suspected positive COVID-19 patients.",
+      "format": "CSV",
+      "name": "covid-19-cases-county-level-4-2",
+      "path": "covid-19-cases-county-level-4-2.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "County Name",
+            "type": "string"
+          },
+          {
+            "name": "Most Recent Date",
+            "type": "string"
+          },
+          {
+            "name": "Total Count Confirmed",
+            "type": "string"
+          },
+          {
+            "name": "Total Count Deaths",
+            "type": "string"
+          },
+          {
+            "name": "COVID-19 Positive Patients",
+            "type": "string"
+          },
+          {
+            "name": "Suspected COVID-19 Positive Patients",
+            "type": "string"
+          },
+          {
+            "name": "ICU COVID-19 Positive Patients",
+            "type": "string"
+          },
+          {
+            "name": "ICU COVID-19 Suspected Patients",
+            "type": "string"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/6882c390-b2d7-4b9a-aefa-2068cee63e47/resource/79a59f4c-c091-4b4f-a2cb-339d20f41a53/download/data_export_tableau_20200402.csv",
+          "title": "COVID-19 Cases - County Level (4/2)"
+        }
+      ],
+      "title": "COVID-19 Cases - County Level (4/2)"
+    },
+    {
+      "description": "Statewide daily inventory of hospital status aggregated to the county level. This dataset depicts: total confirmed cases, total deaths,  both positive and suspected positive COVID-19 patients, as well as Intensive Care Unit (ISU) positive and suspected positive COVID-19 patients.",
+      "format": "CSV",
+      "name": "covid-19-cases-county-level-4-1",
+      "path": "covid-19-cases-county-level-4-1.csv",
+      "schema": {
+        "fields": [
+          {
+            "name": "County Name",
+            "type": "string"
+          },
+          {
+            "name": "Most Recent Date",
+            "type": "string"
+          },
+          {
+            "name": "Total Count Confirmed",
+            "type": "number"
+          },
+          {
+            "name": "Total Count Deaths",
+            "type": "number"
+          },
+          {
+            "name": "COVID-19 Positive Patients",
+            "type": "number"
+          },
+          {
+            "name": "Suspected COVID-19 Positive Patients",
+            "type": "number"
+          },
+          {
+            "name": "ICU COVID-19 Positive Patients",
+            "type": "number"
+          },
+          {
+            "name": "ICU COVID-19 Suspected Patients",
+            "type": "number"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "path": "https://data.chhs.ca.gov/dataset/6882c390-b2d7-4b9a-aefa-2068cee63e47/resource/cd7ff27d-ac5d-419d-b850-5f6098dbfccc/download/covid-19-cases.csv",
+          "title": "COVID-19 Cases - County Level (4/1)"
+        }
+      ],
+      "title": "COVID-19 Cases - County Level (4/1)"
+    }
+  ],
+  "secondary_sources": "",
+  "sources": [
+    {
+      "name": "California Department of Public Health"
+    }
+  ],
+  "temporal_coverage": "2020 ongoing report.",
+  "title": "California COVID-19 Hospital Data and Case Statistics"
+}
