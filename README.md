@@ -1,5 +1,11 @@
 # Pandas - two part series
 
+## Prerequisites
+- Create [IBM Cloud](https://ibm.biz/BdqZEJ) account using this link [https://ibm.biz/BdqZEJ].
+- Follow steps [in this video](https://www.youtube.com/watch?v=a3wUQ_nomFg) to create
+  - [watson studio service](https://cloud.ibm.com/catalog/services/watson-studio)
+  - [cloud object storage](https://cloud.ibm.com/catalog/services/cloud-object-storage) service
+
 ## Part I - an introduction
 
     ✅ how to obtain/read a data file using pandas
