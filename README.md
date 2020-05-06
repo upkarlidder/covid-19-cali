@@ -41,3 +41,41 @@
 9. **[IBM Data Science courses on Coursera](https://www.coursera.org/courses?query=ibm%20data%20science)**
   - **[IBM Data Science Professional Certificate](https://www.coursera.org/specializations/ibm-data-science-professional-certificate)**
   - **[Advanced Data Science with IBM Specialization](https://www.coursera.org/specializations/advanced-data-science-ibm)**
+
+## Code Patterns
+1. [Data Science](https://developer.ibm.com/patterns/category/data-science/?fa=date%3ADESC&fb=)
+1. [Machine Learning](https://developer.ibm.com/patterns/category/machine-learning/?fa=date%3ADESC&fb=)
+1. [Deep Learning](https://developer.ibm.com/patterns/category/deep-learning/?fa=date%3ADESC&fb=)
+
+
+## FAQs
+1. The video is paused for me, what do I do?
+    
+    You have to hit the play button in some browsers as the video does not auto play.
+
+2. Is this webinar being recorded?
+    
+    Yes, the webinar is being recorded, you can view the replay on the same link once the event ends.
+
+3. Where are the slides?
+    
+    See the links above for workshops and resources for each of the sessions.
+
+4. Do you have study materials or courses available?
+    
+    See additional links above for additional reading materials
+
+5. Do you have a certification ?
+    
+    There is no certification provided at this point, but IBM offers a number of courses and certifications on Coursera and Cognitive.ai. See the section above for a listing.
+
+6. How do I access the replays of the individual sessions? 
+    
+    You can access the individual sessions by using the drop down in the top left corner as shown in the screenshot below.
+
+      ![](assets/sessions.png)
+
+7. Who can attend these sessions?
+  
+    Developers, data scientists, analysts and architects. Anyone interested in working with and exploring data.
+
