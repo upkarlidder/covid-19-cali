@@ -6,6 +6,7 @@
    1. [watson studio service](https://cloud.ibm.com/catalog/services/watson-studio)
    1. [cloud object storage](https://cloud.ibm.com/catalog/services/cloud-object-storage) service
    1. [notebook to follow along](https://raw.githubusercontent.com/lidderupk/covid-19-cali/master/assets/covid-19-data-explore-session.ipynb)
+1. Some [slides](https://slides.com/upkar/pandas-series) - [https://slides.com/upkar/pandas-series]
 
 ## Part I - an introduction
 
