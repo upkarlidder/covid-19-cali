@@ -1,10 +1,11 @@
 # Pandas - two part series
 
 ## Prerequisites
-- Create [IBM Cloud](https://ibm.biz/BdqZEJ) account using this link [https://ibm.biz/BdqZEJ].
-- Follow steps [in this video](https://www.youtube.com/watch?v=a3wUQ_nomFg) to create
-  - [watson studio service](https://cloud.ibm.com/catalog/services/watson-studio)
-  - [cloud object storage](https://cloud.ibm.com/catalog/services/cloud-object-storage) service
+1. Create [IBM Cloud](https://ibm.biz/BdqZEJ) account using this link [https://ibm.biz/BdqZEJ].
+1. Follow steps [in this video](https://www.youtube.com/watch?v=a3wUQ_nomFg) to create
+   1. [watson studio service](https://cloud.ibm.com/catalog/services/watson-studio)
+   1. [cloud object storage](https://cloud.ibm.com/catalog/services/cloud-object-storage) service
+   1. [notebook to follow along](https://raw.githubusercontent.com/lidderupk/covid-19-cali/master/assets/covid-19-data-explore-session.ipynb)
 
 ## Part I - an introduction
 
